@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.inputEdit{
+    padding: 20px ;
+    height: 40px;
+    width: 350px;
+    border: 1px solid #D7DADD;
+    border-radius: 35px;
+    background-color: rgba(253, 125, 0, 0.4);
+    float: right;
+}
+.input3{
+    height: 40px;
+    width: 350px;
+    border: 1px solid #D7DADD;
+    border-radius: 35px;
+    background-color: rgba(253, 125, 0, 0.4);
+    float: right;
+    margin-right: 0px;
+    padding-left: 20px;
+}
+.labelEdit {
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 41px;
+    padding-left: 0px;
+    letter-spacing: 0.26em;
+    width: 187px;
+}
+
+.spanEdit{
+    font-size: 14px;
+    color: #FF3F3A;
+    display: none;
+    text-align: right;
+    padding-right: 0px;
+}
+.input2:invalid[focused="true"]{
+    border: 1px solid #FF3F3A ;
+}
+.input2:invalid[focused="true"]~span{
+    display: block;
+}
+
+

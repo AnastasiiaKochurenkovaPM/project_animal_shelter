@@ -1,0 +1,66 @@
+.h2edit {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.26em;
+    color: var(--color-primary);
+    margin-top: 34px;
+    text-align:center ;
+}
+.photoEdit{
+    margin-left: 1100px;
+}
+.formInput3{
+    border-bottom: 1px solid var(--color-primary);
+    margin-top: 15px;
+    height: 60px;
+}
+.formInputEdit{
+    border-bottom: 1px solid var(--color-primary);
+    margin-top: 10px;
+    height: 60px;
+}
+.block_edit{
+    height: 700px;
+    width: 700px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.buttonEdit{
+    display: flex;
+    gap: 100px;
+    margin-left: 150px;
+    height: 90px;
+    width: 700px;
+    cursor: pointer;
+}
+.button_sub_del {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    padding-top:7px;
+    margin-top: 10px;
+    background: linear-gradient(55.95deg, #FD7D00 0%, #F75E05 100%);
+    border-radius: 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.edit_info{
+    display: flex;
+    gap: 200px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}

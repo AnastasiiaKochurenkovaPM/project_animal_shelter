@@ -1,0 +1,47 @@
+.filter {
+  width: 300px;
+  margin-left: 60px;
+}
+
+.btn {
+  background: var(--color-primary);
+  color: var(--color-white);
+  width: 300px;
+  cursor: pointer;
+  border-radius: 65px;
+  font-size: 15px;
+  height: 50px;
+  white-space: nowrap;
+  line-height: 300%;
+  font-family: Inter, sans-serif;
+}
+
+.button {
+  margin-top: 5px;
+  border-bottom: 1.5px solid var(--color-primary);
+}
+
+.value {
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 160%;
+  margin-top: 25px;
+  border-bottom: 2px solid var(--color-primary);
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.p {
+  margin: 10px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.p input {
+  width: 15px;
+  height: 15px;
+  margin: 0 5px 0 3px;
+}

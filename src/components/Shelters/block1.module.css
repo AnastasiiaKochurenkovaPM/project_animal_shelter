@@ -1,0 +1,85 @@
+.block1{
+    position: relative;
+    width: 465px;
+    height: 400px;
+    left: 673px;
+    top: 261px;
+    
+    background: #E8E9D1;
+    border-radius: 10px;
+    }
+    .block1:hover a {
+        color: green;
+     }
+    .image1{
+        width: 100px;
+    height: 98.04px;
+    left: 701px;
+    top: 291px;
+    
+    
+    
+    }
+    .pet1{
+        position: relative;
+        left: -155px;
+        top: -35px;
+    }
+    .smalltext1{
+    position: relative;
+    left: 100px;
+    
+    top: -110px;
+    
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+    
+    
+    color: #240E10;
+    
+    mix-blend-mode: normal;
+    }
+    .bigtext1{
+    position: relative;
+    right: 10px;
+    bottom: 60px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.26em;
+    margin-top: 20px;
+    color: #FD7D00;
+    }
+    .bigtextt1{
+        position: relative;
+        right: 10px;
+        bottom: 60px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 0.26em;
+        
+        color: #FD7D00;
+        
+    }
+    .js-button{
+        width: 465px;
+        height: 400px;
+        left: 673px;
+        top: 261px;
+        
+        background: #E8E9D1;
+        border-radius: 10px; 
+    }

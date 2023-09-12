@@ -1,0 +1,83 @@
+.card {
+    width: 330px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    /*background: black;
+    color: white;
+    margin: 0 20px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.Carousel button {
+    box-shadow: 0 0 1px 3px orange /*rgb(103 58 183)*/;
+    color: orange;
+    background-color: black;
+}
+
+.Carousel button .rec-arrow-right  {
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.block {
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px 50px 0 10px;
+    background: var(--color-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0 10px 0 0;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 147%;
+    color: #240E10;
+
+    mix-blend-mode: normal;
+}
+
+.city {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    color: #809186;
+
+    mix-blend-mode: normal;
+}
+
+.home {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+button.rec-dot {
+    background-color: rgb(235, 16, 16);
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}
+
+button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus {
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+}

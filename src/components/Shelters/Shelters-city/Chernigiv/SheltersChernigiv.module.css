@@ -1,0 +1,214 @@
+
+ .firstSlide {
+    display: flex;
+     height: 1000px;
+}
+
+
+
+.buttons{
+    display: relative;
+    width: 300px ;
+    margin-top:90px;
+    margin-left:145px;   
+}
+
+ .btn {
+    background: var(--color-primary);
+    color: var(--color-white);
+    width: 300px;
+    cursor: pointer;
+    border-radius: 65px;
+    font-size: 14px;
+    height: 50px;
+    white-space: nowrap;
+    line-height: 300%;
+    font-family: Inter,sans-serif;
+    
+}
+
+
+
+
+.list{
+/* Checkbox Text */
+
+position: flex;
+height: 24px;
+margin-left: -185px;
+margin-top: 250px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #424551;
+
+}
+.text {
+    position: flex;
+    width: 187px;
+    height: 32px;
+    margin-left:-290px;
+    margin-top: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    color: #240E10;
+    }
+    
+
+.stick{
+position: absolute;
+width: 330px;
+height: 0px;
+left: 139px;
+top: 310px;
+}
+
+
+
+
+
+
+
+    
+    .image1{
+        width: 100px;
+    height: 98.04px;
+    left: 701px;
+    top: 291px;
+    
+    
+    
+    }
+    .pet1{
+        position: relative;
+        left: -155px;
+        top: 30px;
+    }
+
+    .smalltext1{
+    position: relative;
+    left: 100px;
+    top: -50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #240E10;
+    mix-blend-mode: normal;
+    }
+    
+    .bigtext1{
+        position: flex;
+        margin-right: 10px;
+        margin-top: 50px;
+        
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 0.26em;
+        color: #FD7D00;
+    }
+
+
+    .bigtextt1{
+        position: flex;
+        margin-right: 10px;
+        bottom: 60px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        letter-spacing: 0.26em;
+        color: #FD7D00;
+        
+    }
+
+
+
+    .jsbutton{
+        margin-top: 40px;
+        
+        position:relative;
+        width: 465px;
+        height: 400px;
+        text-decoration: none;
+        display: block;
+        background: #E8E9D1;
+        border-radius: 10px; 
+        overflow: hidden;
+    }
+
+    
+   
+
+   
+    .jsbutton:hover {
+        background: var(--color-primary);
+        color: var(--color-white);
+        transition: all 400ms;
+        display: block;
+        
+        /* margin-top: 0px; */
+    }
+
+
+   
+
+    .newtext{
+       position: relative;
+       top:-100px;
+       color:#E8E9D1;
+       overflow: hidden;
+    }
+
+    .newtextt{
+        position: relative;
+        top:-170px;
+        left: 100px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        color:#E8E9D1;
+    }
+
+    .newtexttt{
+        position: relative;
+     top:-40px;
+       color:#E8E9D1;
+       overflow: hidden;
+    }
+    
+
+
+
+    
+   
+
+    .ul {
+        
+        margin-left: 190px;
+        margin-top: 150px;
+        
+        column-gap: 40px;
+        column-count: 2;
+        word-spacing: 3000 px;
+      }
+
+      .li {
+        display: inline-block;
+        height:18%;
+      }
+   
